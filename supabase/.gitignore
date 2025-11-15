@@ -1,26 +1,24 @@
-# Supabase
-.branches
-.temp
+# Environment files
 .env
+*.env
+.env.*
+*.env.*
+
+# Supabase internal folders
+supabase/.branches
+supabase/.temp
+
+# Ignore secrets inside Supabase functions
+supabase/functions/create-checkout-session/.env
+supabase/functions/create-checkout-session/.env.*
+supabase/functions/create-checkout-session/*.env
+supabase/functions/create-checkout-session/*.ps1
+supabase/functions/create-checkout-session/
+
+# Ignore any PowerShell scripts (often contain secrets)
+*.ps1
+
 # dotenvx
 .env.keys
 .env.local
 .env.*.local
-
-.env
-supabase/functions/create-checkout-session/.env
-supabase/functions/create-checkout-session/.env.devolopment
-supabase/functions/create-checkout-session/run.ps1
-
-.env
-*.env
-supabase/functions/create-checkout-session/.env
-supabase/functions/create-checkout-session/*.env
-supabase/functions/create-checkout-session/run.ps1
-
-
-
-.env
-*.env
-supabase/functions/create-checkout-session/.env*
-supabase/functions/create-checkout-session/run.ps1
