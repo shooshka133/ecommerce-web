@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "lib": ["deno.ns", "deno.unstable", "ES2020"],
+      "strict": true,
+      "noEmit": true
+    }
+  }
+  
