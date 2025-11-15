@@ -17,3 +17,10 @@ supabase/functions/create-checkout-session/run.ps1
 supabase/functions/create-checkout-session/.env
 supabase/functions/create-checkout-session/*.env
 supabase/functions/create-checkout-session/run.ps1
+
+
+
+.env
+*.env
+supabase/functions/create-checkout-session/.env*
+supabase/functions/create-checkout-session/run.ps1
